@@ -1,8 +1,9 @@
 name: find marvin dependencies
 
 on:
+    workflow_dispatch: # Allows manual triggering of the workflow
     schedule:
-        - cron: '18 9 * * 6'  # Runs every day at midnight
+        - cron: '30 10 * * *'  # Runs every day at midnight
 
 jobs:
     find-dependencies:
@@ -10,16 +11,16 @@ jobs:
         permissions:
             contents: write
         steps:
-            - name: checkout repo
-              uses: actions/checkout@v3
+            - name: Checkout repository
+              uses: actions/checkout@v4
               with:
-                  fetch-depth: 0
+                token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: download syft
               run: curl -sSfL https://get.anchore.io/syft | sudo sh -s -- -b /usr/local/bin
 
             - name: find dependencies
-              run: syft epitechcontent/epitest-docker:latest -o table > dependencies.txt
+              run: syft -q epitechcontent/epitest-docker:latest -o table > dependencies.txt
 
             - name: config git
               run: |
