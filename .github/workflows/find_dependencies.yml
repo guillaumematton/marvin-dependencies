@@ -2,7 +2,7 @@ name: find marvin dependencies
 
 on:
     schedule:
-        - cron: '15 9 * * *'  # Runs every day at midnight
+        - cron: '18 9 * * 6'  # Runs every day at midnight
 
 jobs:
     find-dependencies:
