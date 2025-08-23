@@ -1,0 +1,33 @@
+name: find marvin dependencies
+
+on:
+    schedule:
+        - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+    find-dependencies:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: checkout repo
+              uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+
+            - name: download syft
+              run: curl -sSfL https://get.anchore.io/syft | sudo sh -s -- -b /usr/local/bin
+
+            - name: find dependencies
+              run: syft epitechcontent/epitest-docker:latest -o table > dependencies.txt
+
+            - name: config git
+              run: |
+                git config --global user.name "github-actions"
+                git config --global user.email "guillaume.matton@epitech.eu"
+
+            - name: commit dependencies
+              run: |
+                git add dependencies.txt
+                git commit -m "New dependencies found (or first run) on: $(date -u +'%d-%m-%Y')" || echo "No changes to commit"
+                git push
