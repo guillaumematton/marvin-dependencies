@@ -834,7 +834,7 @@ babel-preset-current-node-syntax                                               1
 babel-preset-jest                                                              29.5.0                                                            npm                             
 babel-preset-moxy                                                              3.2.0                                                             npm                             
 balanced-match                                                                 2.0.0                                                             npm                             
-banana-coding-style-checker                                                    20250923084651                                                    deb                             
+banana-coding-style-checker                                                    20250924091643                                                    deb                             
 base                                                                           3.0.0                                                             npm                             
 base-files                                                                     13ubuntu10.3                                                      deb                             
 base-passwd                                                                    3.6.3build1                                                       deb                             
@@ -1060,8 +1060,8 @@ docker.io                                                                      2
 doctrine                                                                       3.0.0                                                             npm                             
 dom4j                                                                          2.1.1                                                             java-archive                    
 dotignore                                                                      0.1.2                                                             npm                             
-dpkg                                                                           1.22.6ubuntu6.2                                                   deb                             
-dpkg-dev                                                                       1.22.6ubuntu6.2                                                   deb                             
+dpkg                                                                           1.22.6ubuntu6.5                                                   deb                             
+dpkg-dev                                                                       1.22.6ubuntu6.5                                                   deb                             
 dwz                                                                            0.15-1build6                                                      deb                             
 e2fsprogs                                                                      1.47.0-2.4~exp1ubuntu4.1                                          deb                             
 eclipse-jdt-annotation                                                         2.2.700                                                           java-archive                    
@@ -2299,7 +2299,7 @@ libdeflate0                                                                    1
 libdevmapper1.02.1                                                             2:1.02.185-3ubuntu3.2                                             deb                             
 libdom4j-java                                                                  2.1.4-1                                                           deb                             
 libdouble-conversion3                                                          3.3.0-1build1                                                     deb                             
-libdpkg-perl                                                                   1.22.6ubuntu6.2                                                   deb                             
+libdpkg-perl                                                                   1.22.6ubuntu6.5                                                   deb                             
 libdrm-amdgpu1                                                                 2.4.122-1~ubuntu0.24.04.1                                         deb                             
 libdrm-common                                                                  2.4.122-1~ubuntu0.24.04.1                                         deb                             
 libdrm-dev                                                                     2.4.122-1~ubuntu0.24.04.1                                         deb                             
@@ -3032,7 +3032,7 @@ libzvbi-common                                                                 0
 libzvbi0t64                                                                    0.2.42-2                                                          deb                             
 line-column                                                                    1.0.2                                                             npm                             
 lines-and-columns                                                              1.1.7                                                             npm                             
-linux-libc-dev                                                                 6.8.0-83.83                                                       deb                             
+linux-libc-dev                                                                 6.8.0-84.84                                                       deb                             
 llvm-20                                                                        1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-dev                                                                    1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-linker-tools                                                           1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
