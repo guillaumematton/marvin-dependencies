@@ -834,7 +834,7 @@ babel-preset-current-node-syntax                                               1
 babel-preset-jest                                                              29.5.0                                                            npm                             
 babel-preset-moxy                                                              3.2.0                                                             npm                             
 balanced-match                                                                 2.0.0                                                             npm                             
-banana-coding-style-checker                                                    20250924091643                                                    deb                             
+banana-coding-style-checker                                                    20250925084819                                                    deb                             
 base                                                                           3.0.0                                                             npm                             
 base-files                                                                     13ubuntu10.3                                                      deb                             
 base-passwd                                                                    3.6.3build1                                                       deb                             
