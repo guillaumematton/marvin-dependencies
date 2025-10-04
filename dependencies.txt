@@ -232,10 +232,10 @@ NAME                                                                           V
 @npmcli/query                                                                  3.0.0                                                             npm                             
 @npmcli/run-script                                                             6.0.0                                                             npm                             
 @npmcli/smoke-tests                                                            1.0.0                                                             npm                             
-@oven/bun-linux-x64                                                            1.2.22                                                            npm                             
-@oven/bun-linux-x64-baseline                                                   1.2.22                                                            npm                             
-@oven/bun-linux-x64-musl                                                       1.2.22                                                            npm                             
-@oven/bun-linux-x64-musl-baseline                                              1.2.22                                                            npm                             
+@oven/bun-linux-x64                                                            1.2.23                                                            npm                             
+@oven/bun-linux-x64-baseline                                                   1.2.23                                                            npm                             
+@oven/bun-linux-x64-musl                                                       1.2.23                                                            npm                             
+@oven/bun-linux-x64-musl-baseline                                              1.2.23                                                            npm                             
 @sellside/emitter                                                              1.2.1                                                             npm                             
 @sindresorhus/is                                                               4.6.0                                                             npm                             
 @szmarczak/http-timer                                                          4.0.6                                                             npm                             
@@ -834,7 +834,7 @@ babel-preset-current-node-syntax                                               1
 babel-preset-jest                                                              29.5.0                                                            npm                             
 babel-preset-moxy                                                              3.2.0                                                             npm                             
 balanced-match                                                                 2.0.0                                                             npm                             
-banana-coding-style-checker                                                    20250925084819                                                    deb                             
+banana-coding-style-checker                                                    20251002143247                                                    deb                             
 base                                                                           3.0.0                                                             npm                             
 base-files                                                                     13ubuntu10.3                                                      deb                             
 base-passwd                                                                    3.6.3build1                                                       deb                             
@@ -903,7 +903,7 @@ bufferstreams                                                                  3
 build-essential                                                                12.10ubuntu1                                                      deb                             
 build-resources                                                                9.4.53.v20231009                                                  java-archive                    
 builtins                                                                       5.0.1                                                             npm                             
-bun                                                                            1.2.22                                                            npm                             
+bun                                                                            1.2.23                                                            npm                             
 busboy                                                                         1.6.0                                                             npm                             
 bytecode                                                                       0.15.1                                                            python                          
 bzip2                                                                          1.0.8-5.1build0.1                                                 deb                             
@@ -2842,8 +2842,8 @@ libss2                                                                         1
 libssh-4                                                                       0.10.6-2ubuntu0.1                                                 deb                             
 libssh-gcrypt-4                                                                0.10.6-2ubuntu0.1                                                 deb                             
 libssh2-1t64                                                                   1.11.0-4.1build2                                                  deb                             
-libssl-dev                                                                     3.0.13-0ubuntu3.5                                                 deb                             
-libssl3t64                                                                     3.0.13-0ubuntu3.5                                                 deb                             
+libssl-dev                                                                     3.0.13-0ubuntu3.6                                                 deb                             
+libssl3t64                                                                     3.0.13-0ubuntu3.6                                                 deb                             
 libstb0t64                                                                     0.0~git20230129.5736b15+ds-1.2                                    deb                             
 libstd-rust-1.75                                                               1.75.0+dfsg0ubuntu1-0ubuntu7.1                                    deb                             
 libstd-rust-dev                                                                1.75.0+dfsg0ubuntu1-0ubuntu7.1                                    deb                             
@@ -2871,9 +2871,9 @@ libthai0                                                                       0
 libtheora-dev                                                                  1.1.1+dfsg.1-16.1build3                                           deb                             
 libtheora0                                                                     1.1.1+dfsg.1-16.1build3                                           deb                             
 libtie-ixhash-perl                                                             1.23-4                                                            deb                             
-libtiff-dev                                                                    4.5.1+git230720-4ubuntu2.3                                        deb                             
-libtiff6                                                                       4.5.1+git230720-4ubuntu2.3                                        deb                             
-libtiffxx6                                                                     4.5.1+git230720-4ubuntu2.3                                        deb                             
+libtiff-dev                                                                    4.5.1+git230720-4ubuntu2.4                                        deb                             
+libtiff6                                                                       4.5.1+git230720-4ubuntu2.4                                        deb                             
+libtiffxx6                                                                     4.5.1+git230720-4ubuntu2.4                                        deb                             
 libtimedate-perl                                                               2.3300-2                                                          deb                             
 libtinfo6                                                                      6.4+20240113-1ubuntu2                                             deb                             
 libtirpc-common                                                                1.3.4+ds-1.1build1                                                deb                             
@@ -3032,7 +3032,7 @@ libzvbi-common                                                                 0
 libzvbi0t64                                                                    0.2.42-2                                                          deb                             
 line-column                                                                    1.0.2                                                             npm                             
 lines-and-columns                                                              1.1.7                                                             npm                             
-linux-libc-dev                                                                 6.8.0-84.84                                                       deb                             
+linux-libc-dev                                                                 6.8.0-85.85                                                       deb                             
 llvm-20                                                                        1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-dev                                                                    1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-linker-tools                                                           1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
@@ -3896,7 +3896,7 @@ openmpi-bin                                                                    4
 openmpi-common                                                                 4.1.6-7ubuntu2                                                    deb                             
 openpyxl                                                                       3.1.2                                                             python                          
 openssh-client                                                                 1:9.6p1-3ubuntu13.14                                              deb                             
-openssl                                                                        3.0.13-0ubuntu3.5                                                 deb                             
+openssl                                                                        3.0.13-0ubuntu3.6                                                 deb                             
 optimist                                                                       0.6.1                                                             npm                             
 optionator                                                                     0.9.1                                                             npm                             
 org.apache.felix.framework                                                     4.6.1                                                             java-archive                    
