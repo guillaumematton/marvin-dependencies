@@ -850,9 +850,9 @@ binary-extensions                                                              2
 binary-search                                                                  1.3.6                                                             npm                             
 bind-obj-methods                                                               3.0.0                                                             npm                             
 bindex                                                                         2.2                                                               java-archive                    
-binutils                                                                       2.42-4ubuntu2.5                                                   deb                             
-binutils-common                                                                2.42-4ubuntu2.5                                                   deb                             
-binutils-x86-64-linux-gnu                                                      2.42-4ubuntu2.5                                                   deb                             
+binutils                                                                       2.42-4ubuntu2.6                                                   deb                             
+binutils-common                                                                2.42-4ubuntu2.6                                                   deb                             
+binutils-x86-64-linux-gnu                                                      2.42-4ubuntu2.6                                                   deb                             
 biz.aQute.bnd                                                                  5.0.1                                                             java-archive                    
 biz.aQute.bnd.annotation                                                       5.0.1                                                             java-archive                    
 biz.aQute.bnd.gradle                                                           5.0.1                                                             java-archive                    
@@ -958,6 +958,27 @@ cloud.google.com/go/longrunning                                                v
 cmake                                                                          3.28.3-1build7                                                    deb                             
 cmake-data                                                                     3.28.3-1build7                                                    deb                             
 cmd-shim                                                                       6.0.0                                                             npm                             
+cmd/addr2line                                                                  UNKNOWN                                                           go-module                       
+cmd/asm                                                                        UNKNOWN                                                           go-module                       
+cmd/buildid                                                                    UNKNOWN                                                           go-module                       
+cmd/cgo                                                                        UNKNOWN                                                           go-module                       
+cmd/compile                                                                    UNKNOWN                                                           go-module                       
+cmd/covdata                                                                    UNKNOWN                                                           go-module                       
+cmd/cover                                                                      UNKNOWN                                                           go-module                       
+cmd/dist                                                                       UNKNOWN                                                           go-module                       
+cmd/distpack                                                                   UNKNOWN                                                           go-module                       
+cmd/doc                                                                        UNKNOWN                                                           go-module                       
+cmd/fix                                                                        UNKNOWN                                                           go-module                       
+cmd/go                                                                         UNKNOWN                                                           go-module                       
+cmd/gofmt                                                                      UNKNOWN                                                           go-module                       
+cmd/link                                                                       UNKNOWN                                                           go-module                       
+cmd/nm                                                                         UNKNOWN                                                           go-module                       
+cmd/objdump                                                                    UNKNOWN                                                           go-module                       
+cmd/pack                                                                       UNKNOWN                                                           go-module                       
+cmd/pprof                                                                      UNKNOWN                                                           go-module                       
+cmd/test2json                                                                  UNKNOWN                                                           go-module                       
+cmd/trace                                                                      UNKNOWN                                                           go-module                       
+cmd/vet                                                                        UNKNOWN                                                           go-module                       
 cmpn                                                                           7.0.0                                                             java-archive  (+1 duplicate)    
 code.cloudfoundry.org/clock                                                    v1.1.0                                                            go-module                       
 codemirror                                                                     5.65.0                                                            npm                             
@@ -1007,6 +1028,7 @@ cssesc                                                                         3
 cssselect                                                                      1.2.0                                                             python                          
 curl                                                                           8.5.0-2ubuntu10.6                                                 deb                             
 cycler                                                                         0.11.0                                                            python                          
+d3-pprof                                                                       2.0.0                                                             npm                             
 dario.cat/mergo                                                                v1.0.0                                                            go-module                       
 dario.cat/mergo                                                                v1.0.1                                                            go-module     (+1 duplicate)    
 dash                                                                           0.5.12-6ubuntu5                                                   deb                             
@@ -1078,13 +1100,13 @@ entrypoints                                                                    0
 env-paths                                                                      2.2.1                                                             npm                             
 envinfo                                                                        7.8.0                                                             npm                             
 epiclang                                                                       20251021115803                                                    deb                             
-epitech-cpool                                                                  1.8                                                               deb                             
-epitech-criterion                                                              1.8                                                               deb                             
-epitech-full                                                                   1.8                                                               deb                             
-epitech-premsc                                                                 1.8                                                               deb                             
-epitech-tek1                                                                   1.8                                                               deb                             
-epitech-tek2                                                                   1.8                                                               deb                             
-epitech-web                                                                    1.8                                                               deb                             
+epitech-cpool                                                                  1.9                                                               deb                             
+epitech-criterion                                                              1.9                                                               deb                             
+epitech-full                                                                   1.9                                                               deb                             
+epitech-premsc                                                                 1.9                                                               deb                             
+epitech-tek1                                                                   1.9                                                               deb                             
+epitech-tek2                                                                   1.9                                                               deb                             
+epitech-web                                                                    1.9                                                               deb                             
 err-code                                                                       2.0.3                                                             npm                             
 errno                                                                          1.0.0                                                             npm                             
 error-ex                                                                       1.3.2                                                             npm                             
@@ -1583,6 +1605,14 @@ go.uber.org/atomic                                                             v
 go.uber.org/mock                                                               v0.5.2                                                            go-module                       
 go.uber.org/multierr                                                           v1.8.0                                                            go-module                       
 go.uber.org/zap                                                                v1.21.0                                                           go-module                       
+golang                                                                         2:1.22~2build1                                                    deb                             
+golang-1.22                                                                    1.22.2-2ubuntu0.4                                                 deb                             
+golang-1.22-doc                                                                1.22.2-2ubuntu0.4                                                 deb                             
+golang-1.22-go                                                                 1.22.2-2ubuntu0.4                                                 deb                             
+golang-1.22-src                                                                1.22.2-2ubuntu0.4                                                 deb                             
+golang-doc                                                                     2:1.22~2build1                                                    deb                             
+golang-go                                                                      2:1.22~2build1                                                    deb                             
+golang-src                                                                     2:1.22~2build1                                                    deb                             
 golang.org/x/crypto                                                            v0.37.0                                                           go-module     (+1 duplicate)    
 golang.org/x/crypto                                                            v0.40.0                                                           go-module                       
 golang.org/x/mod                                                               v0.24.0                                                           go-module                       
@@ -2093,7 +2123,7 @@ libbcpg-java                                                                   1
 libbcprov-java                                                                 1.77-1                                                            deb                             
 libbdplus0                                                                     0.2.0-3build1                                                     deb                             
 libbindex-java                                                                 2.2+svn101-4                                                      deb                             
-libbinutils                                                                    2.42-4ubuntu2.5                                                   deb                             
+libbinutils                                                                    2.42-4ubuntu2.6                                                   deb                             
 libblas3                                                                       3.12.0-3build1.1                                                  deb                             
 libblkid-dev                                                                   2.39.3-9ubuntu6.3                                                 deb                             
 libblkid1                                                                      2.39.3-9ubuntu6.3                                                 deb                             
@@ -2266,8 +2296,8 @@ libcsfml-graphics2.6                                                           2
 libcsfml-network2.6                                                            2.6.0-3build1                                                     deb                             
 libcsfml-system2.6                                                             2.6.0-3build1                                                     deb                             
 libcsfml-window2.6                                                             2.6.0-3build1                                                     deb                             
-libctf-nobfd0                                                                  2.42-4ubuntu2.5                                                   deb                             
-libctf0                                                                        2.42-4ubuntu2.5                                                   deb                             
+libctf-nobfd0                                                                  2.42-4ubuntu2.6                                                   deb                             
+libctf0                                                                        2.42-4ubuntu2.6                                                   deb                             
 libcups2t64                                                                    2.4.7-1.2ubuntu7.4                                                deb                             
 libcurl3t64-gnutls                                                             8.5.0-2ubuntu10.6                                                 deb                             
 libcurl4t64                                                                    8.5.0-2ubuntu10.6                                                 deb                             
@@ -2414,7 +2444,7 @@ libgoogle-gson-java                                                            2
 libgpars-groovy-java                                                           1.2.1-11                                                          deb                             
 libgpg-error0                                                                  1.47-3build2.1                                                    deb                             
 libgpm2                                                                        1.20.7-11                                                         deb                             
-libgprofng0                                                                    2.42-4ubuntu2.5                                                   deb                             
+libgprofng0                                                                    2.42-4ubuntu2.6                                                   deb                             
 libgradle-core-java                                                            4.4.1-20                                                          deb                             
 libgradle-plugins-java                                                         4.4.1-20                                                          deb                             
 libgraphite2-3                                                                 1.3.14-2build1                                                    deb                             
@@ -2577,6 +2607,7 @@ liblsan0                                                                       1
 libltdl-dev                                                                    2.4.7-7build1                                                     deb                             
 libltdl7                                                                       2.4.7-7build1                                                     deb                             
 liblua5.4-0                                                                    5.4.6-3build2                                                     deb                             
+liblua5.4-dev                                                                  5.4.6-3build2                                                     deb                             
 liblwp-mediatypes-perl                                                         6.04-2                                                            deb                             
 liblwp-protocol-https-perl                                                     6.13-1                                                            deb                             
 liblz4-1                                                                       1.9.4-1build1.1                                                   deb                             
@@ -2808,7 +2839,7 @@ libsfml-graphics2.6                                                            2
 libsfml-network2.6                                                             2.6.1+dfsg-2build2                                                deb                             
 libsfml-system2.6                                                              2.6.1+dfsg-2build2                                                deb                             
 libsfml-window2.6                                                              2.6.1+dfsg-2build2                                                deb                             
-libsframe1                                                                     2.42-4ubuntu2.5                                                   deb                             
+libsframe1                                                                     2.42-4ubuntu2.6                                                   deb                             
 libsharpyuv-dev                                                                1.3.2-0.4build3                                                   deb                             
 libsharpyuv0                                                                   1.3.2-0.4build3                                                   deb                             
 libshine3                                                                      3.1.1-2build1                                                     deb                             
@@ -2835,8 +2866,8 @@ libspeex1                                                                      1
 libsqlite3-0                                                                   3.45.1-1ubuntu2.5                                                 deb                             
 libsrt1.5-gnutls                                                               1.5.3-1build2                                                     deb                             
 libss2                                                                         1.47.0-2.4~exp1ubuntu4.1                                          deb                             
-libssh-4                                                                       0.10.6-2ubuntu0.1                                                 deb                             
-libssh-gcrypt-4                                                                0.10.6-2ubuntu0.1                                                 deb                             
+libssh-4                                                                       0.10.6-2ubuntu0.2                                                 deb                             
+libssh-gcrypt-4                                                                0.10.6-2ubuntu0.2                                                 deb                             
 libssh2-1t64                                                                   1.11.0-4.1build2                                                  deb                             
 libssl-dev                                                                     3.0.13-0ubuntu3.6                                                 deb                             
 libssl3t64                                                                     3.0.13-0ubuntu3.6                                                 deb                             
@@ -2876,6 +2907,7 @@ libtirpc-common                                                                1
 libtirpc3t64                                                                   1.3.4+ds-1.1build1                                                deb                             
 libtk8.6                                                                       8.6.14-1build1                                                    deb                             
 libtool                                                                        2.4.7-7build1                                                     deb                             
+libtool-bin                                                                    2.4.7-7build1                                                     deb                             
 libtry-tiny-perl                                                               0.31-2                                                            deb                             
 libts0t64                                                                      1.22-1.1build1                                                    deb                             
 libtsan2                                                                       14.2.0-4ubuntu2~24.04                                             deb                             
@@ -2988,8 +3020,8 @@ libxml-commons-resolver1.1-java                                                1
 libxml-parser-perl                                                             2.47-1build3                                                      deb                             
 libxml-twig-perl                                                               1:3.52-2                                                          deb                             
 libxml-xpathengine-perl                                                        0.14-2                                                            deb                             
-libxml2                                                                        2.9.14+dfsg-1.3ubuntu3.5                                          deb                             
-libxml2-dev                                                                    2.9.14+dfsg-1.3ubuntu3.5                                          deb                             
+libxml2                                                                        2.9.14+dfsg-1.3ubuntu3.6                                          deb                             
+libxml2-dev                                                                    2.9.14+dfsg-1.3ubuntu3.6                                          deb                             
 libxmlb2                                                                       0.3.18-1                                                          deb                             
 libxmu6                                                                        2:1.1.3-3build2                                                   deb                             
 libxmuu1                                                                       2:1.1.3-3build2                                                   deb                             
@@ -3028,7 +3060,7 @@ libzvbi-common                                                                 0
 libzvbi0t64                                                                    0.2.42-2                                                          deb                             
 line-column                                                                    1.0.2                                                             npm                             
 lines-and-columns                                                              1.1.7                                                             npm                             
-linux-libc-dev                                                                 6.8.0-86.87                                                       deb                             
+linux-libc-dev                                                                 6.8.0-87.88                                                       deb                             
 llvm-20                                                                        1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-dev                                                                    1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
 llvm-20-linker-tools                                                           1:20.1.8~++20250804090239+87f0227cb601-1~exp1~20250804210352.139  deb                             
@@ -3973,6 +4005,7 @@ pigz                                                                           2
 pillow                                                                         10.2.0                                                            python                          
 pinentry-curses                                                                1.2.1-3ubuntu5                                                    deb                             
 pirates                                                                        4.0.5                                                             npm                             
+pkg-config                                                                     1.8.1-2build1                                                     deb                             
 pkg-dir                                                                        5.0.0                                                             npm                             
 pkg-php-tools                                                                  1.44                                                              deb                             
 pkgconf                                                                        1.8.1-2build1                                                     deb                             
@@ -4299,6 +4332,7 @@ ssri                                                                           9
 stack-data                                                                     0.6.3                                                             python                          
 stack-utils                                                                    2.0.6                                                             npm                             
 start                                                                          9.4.53.v20231009                                                  java-archive                    
+stdlib                                                                         go1.22.2                                                          go-module     (+20 duplicates)  
 stdlib                                                                         go1.23.1                                                          go-module     (+15 duplicates)  
 stop-iteration-iterator                                                        1.0.0                                                             npm                             
 strace                                                                         6.8-0ubuntu2                                                      deb                             
