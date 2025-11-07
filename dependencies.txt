@@ -1100,13 +1100,13 @@ entrypoints                                                                    0
 env-paths                                                                      2.2.1                                                             npm                             
 envinfo                                                                        7.8.0                                                             npm                             
 epiclang                                                                       20251021115803                                                    deb                             
-epitech-cpool                                                                  1.9                                                               deb                             
-epitech-criterion                                                              1.9                                                               deb                             
-epitech-full                                                                   1.9                                                               deb                             
-epitech-premsc                                                                 1.9                                                               deb                             
-epitech-tek1                                                                   1.9                                                               deb                             
-epitech-tek2                                                                   1.9                                                               deb                             
-epitech-web                                                                    1.9                                                               deb                             
+epitech-cpool                                                                  1.11                                                              deb                             
+epitech-criterion                                                              1.11                                                              deb                             
+epitech-full                                                                   1.11                                                              deb                             
+epitech-premsc                                                                 1.11                                                              deb                             
+epitech-tek1                                                                   1.11                                                              deb                             
+epitech-tek2                                                                   1.11                                                              deb                             
+epitech-web                                                                    1.11                                                              deb                             
 err-code                                                                       2.0.3                                                             npm                             
 errno                                                                          1.0.0                                                             npm                             
 error-ex                                                                       1.3.2                                                             npm                             
@@ -1299,7 +1299,8 @@ github.com/containerd/cgroups                                                  v
 github.com/containerd/cgroups/v3                                               v3.0.2                                                            go-module     (+3 duplicates)   
 github.com/containerd/cgroups/v3                                               v3.0.5                                                            go-module                       
 github.com/containerd/console                                                  v1.0.3                                                            go-module     (+4 duplicates)   
-github.com/containerd/console                                                  v1.0.4                                                            go-module     (+3 duplicates)   
+github.com/containerd/console                                                  v1.0.4                                                            go-module     (+1 duplicate)    
+github.com/containerd/console                                                  v1.0.5                                                            go-module     (+1 duplicate)    
 github.com/containerd/containerd                                               v1.7.28                                                           go-module     (+5 duplicates)   
 github.com/containerd/containerd/api                                           v1.8.0                                                            go-module     (+5 duplicates)   
 github.com/containerd/containerd/api                                           v1.9.0                                                            go-module     (+1 duplicate)    
@@ -1334,7 +1335,8 @@ github.com/containernetworking/plugins                                         v
 github.com/containers/ocicrypt                                                 v1.1.10                                                           go-module                       
 github.com/coreos/go-systemd/v22                                               v22.5.0                                                           go-module     (+6 duplicates)   
 github.com/cpuguy83/go-md2man/v2                                               v2.0.5                                                            go-module     (+4 duplicates)   
-github.com/cyphar/filepath-securejoin                                          v0.4.1                                                            go-module     (+4 duplicates)   
+github.com/cyphar/filepath-securejoin                                          v0.4.1                                                            go-module                       
+github.com/cyphar/filepath-securejoin                                          v0.5.1                                                            go-module     (+3 duplicates)   
 github.com/davecgh/go-spew                                                     v1.1.1                                                            go-module     (+2 duplicates)   
 github.com/deckarep/golang-set/v2                                              v2.3.0                                                            go-module                       
 github.com/dimchansky/utfbom                                                   v1.1.1                                                            go-module                       
@@ -1471,8 +1473,8 @@ github.com/morikuni/aec                                                        v
 github.com/mrunalp/fileutils                                                   v0.5.1                                                            go-module     (+1 duplicate)    
 github.com/munnerz/goautoneg                                                   v0.0.0-20191010083416-a7dc8b61c822                                go-module     (+1 duplicate)    
 github.com/mxk/go-flowrate                                                     v0.0.0-20140419014527-cca7078d478f                                go-module                       
-github.com/opencontainers/cgroups                                              v0.0.1                                                            go-module     (+1 duplicate)    
 github.com/opencontainers/cgroups                                              v0.0.2                                                            go-module                       
+github.com/opencontainers/cgroups                                              v0.0.4                                                            go-module     (+1 duplicate)    
 github.com/opencontainers/go-digest                                            v1.0.0                                                            go-module     (+7 duplicates)   
 github.com/opencontainers/image-spec                                           v1.1.0                                                            go-module     (+5 duplicates)   
 github.com/opencontainers/image-spec                                           v1.1.1                                                            go-module     (+1 duplicate)    
@@ -1480,8 +1482,8 @@ github.com/opencontainers/runc                                                 U
 github.com/opencontainers/runtime-spec                                         v1.1.0                                                            go-module     (+5 duplicates)   
 github.com/opencontainers/runtime-spec                                         v1.2.1                                                            go-module     (+3 duplicates)   
 github.com/opencontainers/runtime-tools                                        v0.9.1-0.20221107090550-2e043c6bd626                              go-module     (+1 duplicate)    
+github.com/opencontainers/selinux                                              UNKNOWN                                                           go-module     (+1 duplicate)    
 github.com/opencontainers/selinux                                              v1.11.0                                                           go-module     (+2 duplicates)   
-github.com/opencontainers/selinux                                              v1.11.1                                                           go-module     (+1 duplicate)    
 github.com/opencontainers/selinux                                              v1.12.0                                                           go-module                       
 github.com/package-url/packageurl-go                                           v0.1.1                                                            go-module                       
 github.com/pelletier/go-toml                                                   v1.9.5                                                            go-module     (+3 duplicates)   
@@ -3379,6 +3381,7 @@ lsb-release                                                                    1
 lsof                                                                           4.95.0-1build3                                                    deb                             
 lto-disabled-list                                                              47                                                                deb                             
 ltrace                                                                         0.7.3-6.4ubuntu3                                                  deb                             
+lua5.4                                                                         5.4.6-3build2                                                     deb                             
 lxml                                                                           5.2.1                                                             python                          
 lxml-html-clean                                                                0.1.1                                                             python                          
 lz4                                                                            4.0.2+dfsg                                                        python                          
@@ -4257,7 +4260,7 @@ rpcsvc-proto                                                                   1
 rsync                                                                          3.2.7-1ubuntu1.2                                                  deb                             
 run-parallel                                                                   1.2.0                                                             npm                             
 run-queue                                                                      2.0.0                                                             npm                             
-runc                                                                           1.3.0-0ubuntu2~24.04.1                                            deb                             
+runc                                                                           1.3.3-0ubuntu1~24.04.2                                            deb                             
 rustc                                                                          1.75.0+dfsg0ubuntu1-0ubuntu7.1                                    deb                             
 safe-buffer                                                                    5.2.1                                                             npm                             
 safe-regex-test                                                                1.0.0                                                             npm                             
